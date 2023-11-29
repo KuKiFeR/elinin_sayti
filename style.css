@@ -1,0 +1,29 @@
+body {
+  background-image: url("./pngtree-8-best-free-mountain-background-images-4k-wallpapers-picture-image_2783525.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: gold;
+}
+p {
+  color: white;
+}
+label {
+  color: blue;
+}
+a {
+  color: aquamarine;
+}
+legend {
+  color: chartreuse;
+}
+span {
+  color: hotpink;
+}
+.span1 {
+  color: darkgreen;
+}
+.span2 {
+  color: chocolate;
+}
