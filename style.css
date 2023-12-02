@@ -14,6 +14,7 @@ label {
 }
 a {
   color: aquamarine;
+  text-decoration: none;
 }
 legend {
   color: chartreuse;
@@ -27,3 +28,4 @@ span {
 .span2 {
   color: chocolate;
 }
+
