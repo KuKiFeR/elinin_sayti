@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 
 body {
   background-image: url("./pngtree-8-best-free-mountain-background-images-4k-wallpapers-picture-image_2783525.jpg");
@@ -8,7 +8,7 @@ body {
 h1 {
   color: gold;
   &:hover {
-    font-family: 'Nova Square', sans-serif;
+    font-family: "Nova Square", sans-serif;
   }
 }
 p {
@@ -50,4 +50,12 @@ ul > li {
 }
 ul {
   display: flex;
+}
+textarea {
+  background-color: black;
+  color: bisque;
+}
+input {
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 255, 13);
 }
