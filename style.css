@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 body {
   background-image: url("./pngtree-8-best-free-mountain-background-images-4k-wallpapers-picture-image_2783525.jpg");
   background-repeat: no-repeat;
@@ -5,6 +7,9 @@ body {
 }
 h1 {
   color: gold;
+  &:hover {
+    font-family: 'Nova Square', sans-serif;
+  }
 }
 p {
   color: white;
@@ -15,12 +20,19 @@ label {
 a {
   color: aquamarine;
   text-decoration: none;
+  transition: 0.5s;
+  font-size: 20px;
+
+  &:hover {
+    color: brown;
+    font-size: 22px;
+  }
 }
 legend {
   color: chartreuse;
 }
 span {
-  color: hotpink;
+  color: rgb(190, 255, 105);
 }
 .span1 {
   color: darkgreen;
@@ -28,4 +40,14 @@ span {
 .span2 {
   color: chocolate;
 }
-
+ul > li {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
