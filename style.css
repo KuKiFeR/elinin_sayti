@@ -22,7 +22,7 @@ a {
   color: aquamarine;
   text-decoration: none;
   transition: 0.5s;
-  font-size: 20px;
+  font-size: 17px;
 
   &:hover {
     color: brown;
