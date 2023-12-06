@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 
 body {
+  max-width: 1200px;
   background-image: url("./pngtree-8-best-free-mountain-background-images-4k-wallpapers-picture-image_2783525.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +53,7 @@ ul {
   display: flex;
 }
 textarea {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.578);
   color: bisque;
 }
 input {
